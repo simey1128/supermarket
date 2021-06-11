@@ -1,0 +1,30 @@
+.ProductContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.ItemContainer {
+  height: 63px;
+}
+
+.ProductItem {
+  background-color: #fff;
+  flex-direction: row;
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin-top: 3px;
+  flex: 1;
+}
+
+.ProductItem h2 {
+  margin: 0px;
+}
+
+.ProductItem h4 {
+  margin: 0px;
+  font-weight: 400;
+  margin-top: 5px;
+}

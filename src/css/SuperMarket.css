@@ -1,0 +1,75 @@
+.SuperMarket {
+  width: 768px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  flex: 1;
+}
+
+.SuperMarket h2 {
+  margin-top: 0;
+}
+
+.SuperMarket > div {
+  padding: 1rem;
+  flex: 1;
+}
+
+.SuperMarket .items-wrapper {
+  background: #f8f9fa;
+}
+
+.AddProduct {
+  width: 384px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -192px;
+}
+.whole {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.AddProduct .name-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.AddProduct h4 {
+  margin: 0;
+  margin-top: 3px;
+}
+
+.AddProduct .name-wrapper .input {
+  outline-style: none;
+  border: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 17px;
+  padding: 0;
+  height: 23px;
+  margin-left: 10px;
+  justify-content: flex-end;
+}
+
+.AddProduct .add {
+  justify-content: flex-end;
+  flex: 1;
+  display: flex;
+}
+
+.AddProduct .add h4 {
+  margin-right: 3px;
+  color: blue;
+}

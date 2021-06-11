@@ -1,0 +1,58 @@
+.BasketItem {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+
+  margin: 0;
+  margin-top: 10px;
+}
+
+.BasketItem h4 {
+  margin: 0px;
+  font-weight: 350;
+}
+
+.BasketItem .price,
+.number,
+.return {
+  margin: 0;
+  /* margin-left: 10px; */
+  width: 80px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.BasketItem .name {
+  margin: 0;
+  margin-left: 0px;
+  width: 80px;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.BasketItem .return {
+  color: red;
+}
+
+.totalPrice {
+  border: 1px solid black;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.totalPrice h4 {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.totalPrice .title {
+  font-weight: 600;
+}
